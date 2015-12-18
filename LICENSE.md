@@ -2,7 +2,7 @@ Copyright 2015 Peter Choy
 BloodLink Mobile App - Terms and conditions
 
 Preamble: This Agreement, signed on Dec 18, 2015 (hereinafter: Effective Date) governs the relationship between the licensee, a Business Entity, (hereinafter: Licensee) and Peter Choy, a private person whose principal place of business is 48 Acacia Close (hereinafter: Licensor). This Agreement sets the terms, rights, restrictions and obligations on using BloodLink Mobile App (hereinafter: The Software) created and owned by Licensor, as detailed herein
-License Grant: Licensor hereby grants Licensee a Personal, Non-assignable & non-transferable, Pepetual, Non-commercial, Including the rights to create but not distribute derivative works, Non-exclusive license, all with accordance with the terms set forth and other legal restrictions set forth in 3rd party software used while running Software.
+License Grant: Licensor hereby grants Licensee a Personal, Non-assignable & non-transferable, Perpetual, Non-commercial, Including the rights to create but not distribute derivative works, Non-exclusive license, all with accordance with the terms set forth and other legal restrictions set forth in 3rd party software used while running Software.
 Limited: Licensee may use Software for the purpose of:
 Running Software on Licensee’s Website[s] and Server[s];
 Allowing 3rd Parties to run Software on Licensee’s Website[s] and Server[s];
