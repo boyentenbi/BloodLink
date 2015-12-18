@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:elevation="4dp">
+
+
+    <TextView
+        android:id="@+id/bloodTypeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B+"
+        android:textAlignment="center"
+        android:textSize="64dp"
+        android:paddingRight="12dp" />
+
+
+    <TextView
+        android:id="@+id/timeLeftTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XXh XXm XXs remaining"
+        android:textAlignment="gravity"
+        android:layout_below="@+id/responsesHadTextView"
+        android:layout_alignLeft="@+id/responsesHadTextView"
+        android:layout_alignStart="@+id/responsesHadTextView"
+        android:paddingRight="8dp" />
+
+    <TextView
+        android:id="@+id/responsesHadTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:singleLine="true"
+        android:text="XX/XX responses"
+        android:layout_below="@+id/progressBar"
+        android:layout_alignLeft="@+id/progressBar"
+        android:layout_alignStart="@+id/progressBar"
+        android:paddingRight="8dp" />
+
+    <TextView
+        android:id="@+id/hospitalTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="XXXXXXXXXX Hospital"
+        android:textSize="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/bloodTypeTextView"
+        android:layout_toEndOf="@+id/bloodTypeTextView"
+        android:paddingRight="8dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:accessibilityLiveRegion="none"
+        android:progress="40"
+        android:indeterminate="false"
+        android:layout_below="@+id/hospitalTextView"
+        android:layout_toRightOf="@+id/bloodTypeTextView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:paddingRight="8dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/timeLeftTextView"
+        android:padding="8dp" />
+
+</RelativeLayout>

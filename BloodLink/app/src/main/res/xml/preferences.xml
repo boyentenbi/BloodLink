@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:defaultValue=""
+        android:key="%s"
+        android:summary="Please provide your username"
+        android:title="@string/namePrefTitle"
+        android:inputType="textPersonName"
+        />
+
+    <ListPreference
+        android:defaultValue=""
+        android:entries="@array/listArray"
+        android:entryValues="@array/listValues"
+        android:key="bloodType"
+        android:summary="%s"
+        android:title="@string/bloodTypePrefTitle" />
+    <EditTextPreference
+        android:defaultValue=""
+        android:key="weight"
+        android:inputType="number"
+        android:summary="Please note you must weigh above 50kg to donate"
+        android:title="@string/approxWeightPrefTitle" />
+    <EditTextPreference
+        android:key="lastDonationDateInMillis"
+        android:title="@string/lastDonationPrefTitle"
+        android:visibility="invisible"
+        android:enabled="false"/>
+    <CheckBoxPreference
+        android:title="@string/firstSetupPrefTitle"
+        android:key="isFirstTime"
+        android:defaultValue="true"
+        />
+
+
+</PreferenceScreen>

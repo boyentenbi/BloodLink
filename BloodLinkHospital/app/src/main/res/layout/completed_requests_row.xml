@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+
+    <TextView
+        android:id="@+id/headerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Donated to ____ Hospital"
+        android:textSize="22dp"
+        android:layout_toRightOf="@+id/pointsText"
+        android:layout_toEndOf="@+id/pointsText"
+        android:layout_alignTop="@+id/pointsText" />
+
+    <TextView
+        android:id="@+id/thanksMessageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:singleLine="false"
+        android:text="thanks so much for donating blood to save this person"
+        android:textSize="16dp"
+        android:layout_alignBottom="@+id/pointsText"
+        android:layout_toRightOf="@+id/pointsText"
+        android:layout_toEndOf="@+id/pointsText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="20"
+        android:id="@+id/pointsText"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="64dp"
+        android:textAlignment="center"
+        android:backgroundTint="#aa0232"
+        android:paddingRight="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DD MMM YY"
+        android:id="@+id/textView3"
+        android:layout_above="@+id/thanksMessageText"
+        android:layout_toRightOf="@+id/headerText"
+        android:layout_toEndOf="@+id/headerText" />
+
+</RelativeLayout>

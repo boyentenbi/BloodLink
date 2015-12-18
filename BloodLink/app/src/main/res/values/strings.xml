@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">BloodLink</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="firstSetupTitle">Welcome to BloodLink</string>
+    <string name="firstSetupText">Thanks for using BloodLink and helping to save lives!\n\nBefore you
+    can start receiving notifications, you need to fill in the settings page.</string>
+    <string name="gotItButtonText">Got it!</string>
+    <string name="alertsTabTitle">Alerts</string>
+    <string name="historyTabTitle">History</string>
+
+    <string name="bloodTypePrefTitle">Blood Type</string>
+    <string name="namePrefTitle">Your name</string>
+    <string name="approxWeightPrefTitle">Your approximate weight (kg)</string>
+    <string name="lastDonationPrefTitle">Date of last BloodLink donation</string>
+    <string name="firstSetupPrefTitle">Enable first time setup prompt</string>
+
+</resources>

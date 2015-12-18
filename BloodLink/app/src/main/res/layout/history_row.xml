@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="8dp"
+    android:paddingRight="8dp"
+    android:paddingBottom="8dp">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:background="@mipmap/ic_heart"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:minWidth="70dp"
+        android:minHeight="66dp"
+        android:maxWidth="70dp"
+        android:maxHeight="66dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout3"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ended\nDD MMM YY"
+            android:id="@+id/historyRowDateTextView"
+            android:textAlignment="center"
+            android:paddingBottom="8dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dr _______"
+            android:id="@+id/historyRowCallerTextView"
+            android:layout_below="@+id/historyRowDateTextView"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="false"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/historyRowHeaderTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="_______ Hospital"
+        android:textSize="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_alignRight="@+id/linearLayout4"
+        android:layout_alignEnd="@+id/linearLayout4"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/thanksMessageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:singleLine="false"
+        android:text="thanks so much for donating blood to save this person"
+        android:textSize="16dp"
+        android:paddingBottom="8dp"
+        android:layout_below="@+id/historyRowHeaderTextView"
+        android:layout_toLeftOf="@+id/linearLayout3"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_alignParentBottom="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout4"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_toLeftOf="@+id/linearLayout3"
+        android:layout_toStartOf="@+id/linearLayout3">
+
+    </LinearLayout>
+
+</RelativeLayout>

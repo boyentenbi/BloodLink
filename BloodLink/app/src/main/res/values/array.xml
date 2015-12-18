@@ -1,0 +1,24 @@
+<resources>
+    <string-array name="listArray">
+        <item>A  RhD Positive (A+)</item>
+        <item>A  RhD Negative (A-)</item>
+        <item>B  RhD Positive (B+)</item>
+        <item>B  RhD Negative (B-)</item>
+        <item>AB RhD Positive (AB+)</item>
+        <item>AB RhD Negative (AB-)</item>
+        <item>O  RhD Positive (O+)</item>
+        <item>O  RhD Negative (O-)</item>
+
+    </string-array>
+    <string-array name="listValues">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+
+    </string-array>
+</resources>
