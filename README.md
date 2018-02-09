@@ -4,7 +4,7 @@ This project was a help to a friend at college. He studies medicine and is origi
 
 He was in talks with some hospitals local to his home and asked me to develop a simple app to broadcast and accept calls for blood donation.
 
-<img src=bloodlinkV3-0015-ANIMATION.gif width="400" height="300">
+<img src=bloodlinkV3-0015-ANIMATION.gif width="400" height="400">
 
 
 Full video: https://youtu.be/FY1QF_Lxbf4
