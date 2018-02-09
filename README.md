@@ -1,7 +1,20 @@
 # BloodLink
 
-This project was a help to a friend at college. He studies medicine and is originally from Pakistan, where blood donation infrastructure isn't perfect. He was in talks with some hospitals local to his home and asked me to develop a simple app to broadcast and accept calls for blood donation.
+This project was a help to a friend at college. He studies medicine and is originally from Pakistan, where blood donation infrastructure isn't perfect. 
 
-![Alt Text](https://media.giphy.com/media/l3diTjMJ5J9s9wb04/giphy.gif)
+He was in talks with some hospitals local to his home and asked me to develop a simple app to broadcast and accept calls for blood donation.
 
+![Alt Text](bloodlinkV3-0015-ANIMATION.gif)
 
+Full video: https://youtu.be/FY1QF_Lxbf4
+
+# I learnt
+
+* Java
+* How to develop frontends with Material Design
+* How to use Android Studio
+* HTTP get, HTTP post and friends
+* I've got a pretty good intuition about what makes a user-friendly UI
+* Personal project fail almost every time, so its important you at least learn some new software / mathematics while you do it.
+
+Frontend design has actually changed a lot since then. At this point I wasn't aware of (e.g) React Native. In hindsight I should've written the app in JS and converted it to run on Android and iOS. 
